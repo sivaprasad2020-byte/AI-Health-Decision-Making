@@ -24,36 +24,47 @@ A qualitative UX research study investigating how different AI health response s
 
 # Research Repository
 
-This repository contains the research materials, frameworks, artifacts, and supporting evidence behind the study.
-
-| Asset                                                                       | Description                   |
-| --------------------------------------------------------------------------- | ----------------------------- |
-| 📄 [When AI Becomes the First Doctor](When-AI-Becomes-the-First-Doctor.pdf) | Full research case study      |
-| 🎤 [Interview Guide](Interview-Guide.pdf)                                   | Moderation guide              |
-| 👥 [Participant Summary](Participant-Summary.png)                           | Participant overview          |
-| 🗺️ Study Overview                                                          | Research process              |
-| 🧩 Affinity Map                                                             | Theme synthesis               |
-| 🧠 Mental Models                                                            | User beliefs and expectations |
-| ⚠️ Failure Mechanisms                                                       | Factors reducing trust        |
-| 🛣️ AI Health Decision Journey                                              | User decision framework       |
-| 🎯 User Needs Framework                                                     | Core user needs               |
-| 📸 Dovetail Screenshots                                                     | Interview evidence            |
+| Asset                                                                        | Description                             |
+| ---------------------------------------------------------------------------- | --------------------------------------- |
+| 📄 [When AI Becomes the First Doctor](When-AI-Becomes-the-First-Doctor.pdf)  | Full research case study                |
+| 🎤 [Interview Guide](Interview%20Guide.pdf)                                  | Moderation guide used during interviews |
+| 👥 [Participant Overview](Participants-Overview.png)                         | Study participant summary               |
+| 🗺️ [Study Overview](AI-Health-Decision-Making-Study-Overview.png)           | Research design and study process       |
+| 🛣️ [Health Decision Journey](AI-Health-Decision-Journey.png)                | AI-assisted health decision framework   |
+| 🧩 [Affinity Map](Affinity-Map.png)                                          | Thematic analysis and synthesis         |
+| 🧠 [User Mental Model](User-Mental-Model.png)                                | User beliefs and expectations           |
+| 🎯 [User Needs Framework](User-Needs-Framework.png)                          | Core user needs identified in the study |
+| ⚠️ [Failure Mechanisms](Failure-Mechanisms.png)                              | Factors reducing trust and usefulness   |
+| 📸 [Dovetail Interview Screenshots](Screenshots-Dovetail-Interviews.png)     | Evidence from interview analysis        |
+| 💬 [Study Artefact 1](Study-Artefact-Case-I-%28Generic-Response%29.png)      | Generic AI response                     |
+| ❤️ [Study Artefact 2](Study-Artefact-Case-II-%28Empathetic-Response%29.png)  | Empathetic AI response                  |
+| 📋 [Study Artefact 3](Study-Artefact-Case-III-%28Structured-Response%29.png) | Structured AI response                  |
 
 ---
 
-# Problem
+# Overview
 
-Millions of users increasingly consult AI systems such as ChatGPT, Gemini, and Claude before consulting healthcare professionals.
+Artificial intelligence is increasingly becoming the first place people go when health symptoms appear.
 
-Current AI health experiences often:
+People now ask AI systems such as ChatGPT, Gemini, and Claude questions about:
 
-* provide generic responses
-* offer limited personalization
-* provide little urgency guidance
-* overuse medical disclaimers
-* struggle to balance empathy and safety
+* stress
+* anxiety
+* sleep problems
+* dizziness
+* fatigue
+* chest discomfort
+* lifestyle concerns
 
-As AI becomes the first point of contact for health concerns, understanding how people interpret these responses becomes increasingly important.
+Despite this growing behavior, little is understood about how people interpret AI-generated health advice and how these responses influence decision-making.
+
+This independent UX research study investigates how different AI response styles influence:
+
+* urgency assessment
+* emotional reactions
+* intended actions
+* information-seeking behavior
+* trust and usefulness
 
 ---
 
@@ -63,32 +74,35 @@ As AI becomes the first point of contact for health concerns, understanding how 
 
 ---
 
-# Study
+# Study Overview
 
-### Participants
+| Aspect           | Details                                                            |
+| ---------------- | ------------------------------------------------------------------ |
+| Study Type       | Qualitative UX Research                                            |
+| Method           | Moderated Remote Interviews                                        |
+| Participants     | 8 participants                                                     |
+| User Groups      | Parents and Young Professionals                                    |
+| AI Experience    | Frequent AI users                                                  |
+| Session Duration | 30–45 minutes                                                      |
+| Research Stimuli | Three AI-generated health responses                                |
+| Data Collected   | Reactions, intended actions, urgency perception, information needs |
+| Analysis Method  | Thematic analysis and affinity mapping                             |
 
-* 8 participants
-* Parents
-* Young professionals
-* Frequent AI users
+---
 
-### Method
+# Evaluated Response Types
 
-Moderated remote interviews.
+### Response 1 — Generic Response
 
-Participants reviewed three AI-generated responses:
+Neutral and medically cautious.
 
-1. Neutral response
-2. Emotionally reassuring response
-3. Structured action-oriented response
+### Response 2 — Empathetic Response
 
-Each session explored:
+Emotionally reassuring and supportive.
 
-* emotional reactions
-* urgency perception
-* intended actions
-* information needs
-* trust and usefulness
+### Response 3 — Structured Response
+
+Action-oriented guidance with recommendations and monitoring advice.
 
 ---
 
@@ -132,8 +146,8 @@ Participants primarily wanted to understand:
 Participants consistently wanted:
 
 * follow-up questions
-* contextual understanding
 * clarification
+* contextual understanding
 
 Static responses felt incomplete.
 
@@ -143,8 +157,8 @@ Static responses felt incomplete.
 
 Participants valued:
 
+* monitoring periods
 * timeframes
-* monitoring advice
 * next steps
 * practical recommendations
 
@@ -188,10 +202,10 @@ This research produced several reusable frameworks:
 
 * AI Health Decision Journey
 * User Needs Framework
-* Mental Models
+* User Mental Model
 * Failure Mechanisms
 
-These frameworks are intended to support:
+These frameworks aim to support:
 
 * AI product teams
 * UX researchers
@@ -224,8 +238,8 @@ AI systems increasingly function as:
 This creates responsibilities around:
 
 * emotional dependence
-* false reassurance
 * delayed care
+* false reassurance
 * unsafe confidence
 
 ---
@@ -266,8 +280,8 @@ Areas of interest:
 
 * AI UX Research
 * Human decision-making
-* Conversational AI
 * Trust and uncertainty
+* Conversational AI
 * AI product experiences
 * Behavioral research
 
