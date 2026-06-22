@@ -2,37 +2,58 @@
 
 ## Understanding How People Interpret AI-Generated Health Advice
 
-📄 **Full Case Study**
-
-Download the complete research case study:
-
-[Download the Full Case Study](AI-Health-Case-Study.pdf)
+> **Users do not want AI to replace doctors.**
+>
+> **They want AI to help them decide what to do next.**
 
 ---
 
-# Overview
+# 📄 Featured Case Study
 
-Artificial intelligence is increasingly becoming the first place people go when health symptoms appear.
+## [When AI Becomes the First Doctor](When-AI-Becomes-the-First-Doctor.pdf)
 
-People are asking AI systems such as ChatGPT, Gemini, and Claude questions about:
+A qualitative UX research study investigating how different AI health response styles influence:
 
-* chest pain
-* sleep issues
-* stress
-* anxiety
-* dizziness
-* fatigue
-* lifestyle concerns
-
-However, very little is known about how people actually interpret AI-generated health advice and how these responses influence their decisions.
-
-This independent UX research study investigates how different AI response styles influence:
-
-* urgency assessment
+* urgency perception
+* intended actions
 * emotional reactions
 * information-seeking behavior
-* intended actions
 * trust and usefulness
+
+---
+
+# Research Repository
+
+This repository contains the research materials, frameworks, artifacts, and supporting evidence behind the study.
+
+| Asset                                                                       | Description                   |
+| --------------------------------------------------------------------------- | ----------------------------- |
+| 📄 [When AI Becomes the First Doctor](When-AI-Becomes-the-First-Doctor.pdf) | Full research case study      |
+| 🎤 [Interview Guide](Interview-Guide.pdf)                                   | Moderation guide              |
+| 👥 [Participant Summary](Participant-Summary.png)                           | Participant overview          |
+| 🗺️ Study Overview                                                          | Research process              |
+| 🧩 Affinity Map                                                             | Theme synthesis               |
+| 🧠 Mental Models                                                            | User beliefs and expectations |
+| ⚠️ Failure Mechanisms                                                       | Factors reducing trust        |
+| 🛣️ AI Health Decision Journey                                              | User decision framework       |
+| 🎯 User Needs Framework                                                     | Core user needs               |
+| 📸 Dovetail Screenshots                                                     | Interview evidence            |
+
+---
+
+# Problem
+
+Millions of users increasingly consult AI systems such as ChatGPT, Gemini, and Claude before consulting healthcare professionals.
+
+Current AI health experiences often:
+
+* provide generic responses
+* offer limited personalization
+* provide little urgency guidance
+* overuse medical disclaimers
+* struggle to balance empathy and safety
+
+As AI becomes the first point of contact for health concerns, understanding how people interpret these responses becomes increasingly important.
 
 ---
 
@@ -42,54 +63,40 @@ This independent UX research study investigates how different AI response styles
 
 ---
 
-# Why This Matters
-
-Current AI health interactions often:
-
-* provide generic responses
-* offer limited personalization
-* provide little urgency guidance
-* overuse medical disclaimers
-* struggle to balance empathy and safety
-
-As AI increasingly becomes the first point of contact for health concerns, understanding how users interpret these responses becomes critical.
-
----
-
 # Study
 
-## Participants
+### Participants
 
 * 8 participants
 * Parents
 * Young professionals
 * Frequent AI users
 
-## Method
+### Method
 
 Moderated remote interviews.
 
-Participants reviewed three AI-generated health responses:
+Participants reviewed three AI-generated responses:
 
 1. Neutral response
 2. Emotionally reassuring response
 3. Structured action-oriented response
 
-The study explored:
+Each session explored:
 
 * emotional reactions
-* intended actions
 * urgency perception
-* information-seeking behavior
+* intended actions
+* information needs
 * trust and usefulness
 
 ---
 
 # Key Insight
 
-> Users do not want AI to replace doctors.
+> Users do not seek health answers from AI.
 
-They want AI to help them answer:
+They seek help deciding:
 
 * Should I worry?
 * Can I wait?
@@ -102,15 +109,15 @@ AI increasingly functions as a triage tool rather than a diagnosis tool.
 
 # Major Findings
 
-## 1. AI Is The First Stop, Not The Final Stop
+## AI Is The First Stop
 
 Typical behavior:
 
-Symptoms → AI → Self-management → Doctor if necessary
+Symptoms → AI → Self-management → Doctor
 
 ---
 
-## 2. Users Seek Urgency Assessment
+## Users Seek Urgency Assessment
 
 Participants primarily wanted to understand:
 
@@ -120,26 +127,40 @@ Participants primarily wanted to understand:
 
 ---
 
-## 3. Users Want Conversations, Not Answers
+## Questions Are Preferred Over Answers
 
-Participants consistently preferred:
+Participants consistently wanted:
 
 * follow-up questions
+* contextual understanding
 * clarification
-* personalization
 
-Static answers felt generic.
+Static responses felt incomplete.
 
 ---
 
-## 4. Actionability Builds Confidence
+## Actionability Builds Confidence
 
 Participants valued:
 
-* next steps
-* monitoring advice
 * timeframes
+* monitoring advice
+* next steps
 * practical recommendations
+
+---
+
+## False Empathy Reduces Trust
+
+Unsupported emotional assumptions reduced credibility.
+
+Participants preferred:
+
+* honesty
+* transparency
+* clarification
+
+over reassurance.
 
 ---
 
@@ -147,47 +168,35 @@ Participants valued:
 
 > "I want ChatGPT to ask me questions."
 
-— Participant
-
 ---
 
 > "I am one person, not a sample."
-
-— Participant
-
----
-
-> "It feels like you're talking to a human."
-
-— Participant
 
 ---
 
 > "I want to know whether I should go today or next week."
 
-— Participant
+---
+
+> "It feels like you're talking to a person."
 
 ---
 
-# Failure Mechanisms
+# Strategic Frameworks
 
-The study identified several response patterns that reduced trust.
+This research produced several reusable frameworks:
 
-### False Empathy
+* AI Health Decision Journey
+* User Needs Framework
+* Mental Models
+* Failure Mechanisms
 
-Unsupported emotional assumptions reduced credibility.
+These frameworks are intended to support:
 
-### Generic Escalation
-
-"Consult a healthcare professional" was often perceived as unhelpful.
-
-### Statistical Reassurance
-
-Population-level statements often failed at the individual level.
-
-### Context Assumptions
-
-Users wanted AI to ask questions rather than make assumptions.
+* AI product teams
+* UX researchers
+* conversational designers
+* healthcare AI teams
 
 ---
 
@@ -197,36 +206,10 @@ AI health experiences should:
 
 * ask before answering
 * personalize before reassuring
-* provide actions before escalation
-* support urgency assessment
-* offer monitoring guidance
-* specify escalation criteria
-
----
-
-# AI Health Decision Journey
-
-Symptoms
-
-↓
-
-Uncertainty
-
-↓
-
-AI Consultation
-
-↓
-
-Urgency Assessment
-
-↓
-
-Self-Management
-
-↓
-
-Professional Care
+* support uncertainty
+* provide monitoring guidance
+* define escalation criteria
+* recommend specific actions
 
 ---
 
@@ -243,7 +226,7 @@ This creates responsibilities around:
 * emotional dependence
 * false reassurance
 * delayed care
-* overtrust
+* unsafe confidence
 
 ---
 
@@ -251,7 +234,7 @@ This creates responsibilities around:
 
 This study began as an investigation into emotional reassurance and trust.
 
-It evolved into a study of how people use AI to make decisions under uncertainty.
+The findings suggested something different.
 
 Participants cared less about trust than expected.
 
@@ -261,26 +244,29 @@ They cared more about:
 * assessing urgency
 * deciding next actions
 
+The research evolved from trust calibration to decision-making under uncertainty.
+
 ---
 
 # Final Insight
 
-> People do not seek health answers from AI.
+> People do not want AI to replace doctors.
 
-> They seek help deciding what to do next.
+> They want AI to help them decide what to do next.
 
 ---
 
-# About the Researcher
+# About The Researcher
 
 **Sivaprasad Paliyath**
 
-Senior UX Researcher | Product Thinker | AI UX Research
+Senior UX Researcher | Product Thinker | Human-AI Interaction
 
 Areas of interest:
 
-* Human-AI interaction
-* AI decision-making
+* AI UX Research
+* Human decision-making
+* Conversational AI
 * Trust and uncertainty
 * AI product experiences
 * Behavioral research
@@ -290,7 +276,8 @@ Areas of interest:
 # Future Research
 
 * AI urgency calibration
-* AI emotional support systems
-* Trust in AI-generated advice
-* Human decision-making with AI
-* AI-assisted health triage
+* Human-AI trust
+* AI symptom triage
+* Emotional dependence on AI
+* AI-supported decision-making
+* Health AI interaction design
